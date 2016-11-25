@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.weiraoeducationinstitution.activity.AssociationTagGoupActivity">
+
+    <include layout="@layout/include_top_actionbar"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="机构特点"
+        android:textColor="@color/commo_text_color"
+        android:textSize="16sp" />
+
+    <com.example.administrator.weiraoeducationinstitution.view.TagGroup
+        android:id="@+id/association_tag_group"
+        style="@style/TagGroup"
+        android:padding="5dp"
+        app:atg_isAppendMode="true" />
+</LinearLayout>

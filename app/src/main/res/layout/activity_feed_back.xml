@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/griditems_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.weiraoeducationinstitution.activity.FeedBackActivity">
+
+    <include layout="@layout/include_top_actionbar"></include>
+
+    <EditText
+        android:id="@+id/feedback_conatent"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:hint="@string/feedback"
+        android:paddingTop="5dp"
+        android:textColor="@color/commo_text_color"
+        android:textSize="16sp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/feedback_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="top"
+            android:hint="请留下您的邮箱,以便回复您(选填)"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textColor="@color/commo_text_color"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"></View>
+</LinearLayout>

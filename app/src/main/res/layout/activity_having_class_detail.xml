@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/griditems_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.weiraoeducationinstitution.activity.manage.havingclass.HavingClassDetailActivity">
+
+    <include layout="@layout/include_top_toolbar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/windowBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:text="学生考勤"
+                android:textColor="@color/commo_text_color"
+                android:textSize="18sp" />
+
+            <com.jcodecraeer.xrecyclerview.XRecyclerView
+                android:id="@+id/having_detail_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/windowBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:text="课堂重点"
+                android:textColor="@color/commo_text_color"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/having_detail_manage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:background="@color/windowBackground"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/windowBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:text="上课过程"
+                android:textColor="@color/commo_text_color"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/having_detail_process"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:background="@color/windowBackground"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/windowBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:text="建议办法"
+                android:textColor="@color/commo_text_color"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/having_detail_solution"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:background="@color/windowBackground"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/windowBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:text="作业展示"
+                android:textColor="@color/commo_text_color"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/having_detail_workContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="16sp"
+                android:padding="5dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/having_detail_recycleview_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/having_detail_isSolve"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="已解决"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/having_detail_checkMore"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_btn_click_bg"
+                android:gravity="center"
+                android:text="查看学生评分"
+                android:textColor="@drawable/login_text_click_bg"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/having_detail_bottomLL"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.2"></View>
+
+                <Button
+                    android:id="@+id/having_detail_refuse"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/association_pop_btn_bg"
+                    android:text="拒绝"
+                    android:textColor="@drawable/association_pop_text_bg"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.2"></View>
+
+                <Button
+                    android:id="@+id/having_detail_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/association_pop_btn_bg"
+                    android:text="通过"
+                    android:textColor="@drawable/association_pop_text_bg"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.2"></View>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

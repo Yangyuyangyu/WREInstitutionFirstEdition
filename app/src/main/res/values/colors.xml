@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#48759b</color>
+    <color name="colorPrimaryDark">#083939</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bank_type_color">#48759b</color>
+    <color name="bank_success_green">#7FD263</color>
+    <color name="windowBackground">#fafafa</color>
+    <color name="white">#ffffff</color>
+    <color name="click_gray_bg">#ffe8ecef</color>
+    <!--标题栏颜色-->
+    <color name="weirao_title_color">#FF6864</color>
+    <!--分割线颜色-->
+    <color name="weirao_parting_line">#F0EDF8</color>
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#ffd3dde6</color>
+    <!--字体颜色-->
+    <color name="weirao_text_normal_color">#333333</color>
+    <color name="liuliuliu">#666666</color>
+    <!--三级联动-->
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- 上传图片添加的颜色 -->
+    <color name="none_color">#00000000</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="albumback">#E1E0DE</color>
+</resources>

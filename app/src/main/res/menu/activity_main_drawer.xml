@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_organization_setting"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="机构信息" />
+        <item
+            android:id="@+id/nav_myBankCard"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="我的银行卡" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="社团管理制度" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="机构设置" />
+
+    </group>
+
+    <item android:title="其他">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="关于我们" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:title="意见反馈" />
+        </menu>
+    </item>
+
+</menu>

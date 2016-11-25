@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/include_time_tableLL"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="@color/windowBackground"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/time_table_btn_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周一"
+        android:textColor="@color/weirao_text_normal_color" />
+
+    <Button
+        android:id="@+id/time_table_btn_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周二"
+        android:textColor="@color/weirao_text_normal_color" />
+
+    <Button
+        android:id="@+id/time_table_btn_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周三"
+        android:textColor="@color/weirao_text_normal_color" />
+
+    <Button
+        android:id="@+id/time_table_btn_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周四"
+        android:textColor="@color/weirao_text_normal_color" />
+
+    <Button
+        android:id="@+id/time_table_btn_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周五"
+        android:textColor="@color/weirao_text_normal_color" />
+
+    <Button
+        android:id="@+id/time_table_btn_6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周六"
+        android:textColor="@color/weirao_text_normal_color" />
+
+    <Button
+        android:id="@+id/time_table_btn_7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="周日"
+        android:textColor="@color/weirao_text_normal_color" />
+</LinearLayout>

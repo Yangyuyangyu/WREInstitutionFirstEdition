@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_red_frame"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/pop_allTeacherOrCourse_had"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择已有"
+        android:textColor="@color/weirao_title_color"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/line"></View>
+
+    <TextView
+        android:id="@+id/pop_allTeacherOrCourse_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="直接新增"
+        android:textColor="@color/weirao_text_normal_color"
+        android:textSize="15sp" />
+</LinearLayout>

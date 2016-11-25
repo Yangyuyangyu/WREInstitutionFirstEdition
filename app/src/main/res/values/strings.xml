@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">围绕教育</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="add_tags">添加标签</string>
+
+    <!-- 图片浏览 -->
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+
+    <string name="feedback">请在这里填写您的建议,我们重视每个反馈的声音,我们将不断改进,感谢您的支持!</string>
+    <string name="title_activity_having_class_check">HavingClassCheckActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_teacher_center">TeacherCenterActivity</string>
+
+</resources>

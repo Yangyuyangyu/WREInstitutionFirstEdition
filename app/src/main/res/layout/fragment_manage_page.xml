@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/griditems_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/fragment_manage_include_title"
+        layout="@layout/include_title_setting" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/windowBackground"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_dynamic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img1"
+                android:text="动态"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou1"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_association" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img2"
+                android:text="社团训练规划"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou2"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_leave" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img3"
+                android:text="请假审批"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou3"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_temporary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img4"
+                android:text="临时账号审批"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou4"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/griditems_bg" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_repair" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img5"
+                android:text="维修管理"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou5"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img6"
+                android:text="电话追访记录"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou6"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_grade" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img7"
+                android:text="打分项目管理"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou7"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/griditems_bg" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_other" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img8"
+                android:text="其他课管理"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou8"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_class_condition" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img9"
+                android:text="上课记录审核"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou9"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/manage_dynamic_Re10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_selector">
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/manage_exam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/manage_dynamic_img10"
+                android:text="考试管理"
+                android:textColor="@color/weirao_text_normal_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_jiantou10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@mipmap/icon_next_gray" />
+
+            <ImageView
+                android:id="@+id/manage_dynamic_img_show10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/manage_dynamic_jiantou10"
+                android:padding="10dp"
+                android:src="@mipmap/icon_home"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeiRaoEducationInstitution.iml" filepath="$PROJECT_DIR$/WeiRaoEducationInstitution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_skinloader/lib_skinloader.iml" filepath="$PROJECT_DIR$/lib_skinloader/lib_skinloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdLibrary/photoview/photoview.iml" filepath="$PROJECT_DIR$/ThirdLibrary/photoview/photoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skin_black/skin_black.iml" filepath="$PROJECT_DIR$/skin_black/skin_black.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdLibrary/xrecyclerview/xrecyclerview.iml" filepath="$PROJECT_DIR$/ThirdLibrary/xrecyclerview/xrecyclerview.iml" />
+    </modules>
+  </component>
+</project>

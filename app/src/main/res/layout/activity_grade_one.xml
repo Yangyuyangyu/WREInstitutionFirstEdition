@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/griditems_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.weiraoeducationinstitution.activity.manage.grade.GradeOneActivity">
+
+    <include layout="@layout/include_top_toolbar"></include>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/windowBackground"></View>
+
+    <TextView
+        android:id="@+id/grade_one_course_complete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_selector"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="课程完成情况"
+        android:textColor="@color/commo_text_color"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/windowBackground"></View>
+
+    <TextView
+        android:id="@+id/grade_one_course_earnest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_selector"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="上课认真情况"
+        android:textColor="@color/commo_text_color"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/windowBackground"></View>
+
+    <TextView
+        android:id="@+id/grade_one_course_work"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_selector"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="课后作业完成情况"
+        android:textColor="@color/commo_text_color"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/windowBackground"></View>
+</LinearLayout>

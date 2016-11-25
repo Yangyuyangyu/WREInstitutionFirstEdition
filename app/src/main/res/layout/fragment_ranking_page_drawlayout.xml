@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/ranking_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground">
+
+        <!--内容区-->
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/ranking_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/windowBackground"
+            android:fitsSystemWindows="true"
+            skin:enable="true">
+
+            <include
+                android:id="@+id/include_ranking_content"
+                layout="@layout/fragment_ranking_page" />
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <!--左侧导航菜单-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/ranking_navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@color/windowBackground"
+            app:menu="@menu/fragment_ranking_drawer"
+            skin:enable="true" />
+    </android.support.v4.widget.DrawerLayout>
+</FrameLayout>
